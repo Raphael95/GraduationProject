@@ -41,7 +41,6 @@ public class RequestOkHttp {
     ResolveGson resolveGson=new ResolveGson();
 
 
-
     public RequestOkHttp(){
         if(DataSupport.findAll(IpAddress.class).size()!=0){
             ip=DataSupport.findAll(IpAddress.class).get(0);
@@ -50,6 +49,10 @@ public class RequestOkHttp {
             url="http://"+ip_address+":"+ip_port+"/"+"transportmanager/";
         }
 
+    }
+
+    public String getDownloadUrl(){
+        return url;
     }
 
     public boolean login(final String userName, final String passWord) {

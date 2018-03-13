@@ -47,6 +47,7 @@ public class ReceiptActivity extends AppCompatActivity {
     TextView price;
     TextView contacts_phone;
     TextView baochouleixing;
+    TextView safeCard;
 
 
     @Override
@@ -54,7 +55,7 @@ public class ReceiptActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         List<YunDan> wayBillList= DataSupport.findAll(YunDan.class);
-        Log.e("ReceiptActivity",String.valueOf(wayBillList.size()));
+        Log.e("ReceiptActivity",String.valueOf(wayBillList));
 
 
 
@@ -76,6 +77,7 @@ public class ReceiptActivity extends AppCompatActivity {
             transportTime=(TextView)findViewById(R.id.transportTime);
             tonnage=(TextView)findViewById(R.id.tonnage);
             cargoName=(TextView)findViewById(R.id.cargoName);
+            safeCard = (TextView)findViewById(R.id.safeCard);
             price=(TextView)findViewById(R.id.price);
             baochouleixing=(TextView)findViewById(R.id.baochouleixing);
 
@@ -95,10 +97,19 @@ public class ReceiptActivity extends AppCompatActivity {
             transportTime.setText(wayBill.getYunshushijian());
             tonnage.setText(String.valueOf(wayBill.getYujidunwei()));
             cargoName.setText(wayBill.getHuowumingcheng());
+            safeCard.setText(wayBill.getAnquanka());
             baochouleixing.setText(wayBill.getBaochouleixing());
             price.setText(String.valueOf(wayBill.getBaochoujine()));
 
 
+            safeCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent wordIntent = new Intent(ReceiptActivity.this,WordActivity.class);
+                    wordIntent.putExtra("path",wayBill.getAnquankapath());
+                    startActivity(wordIntent);
+                }
+            });
 
             accept.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -228,7 +228,17 @@ public class YunDan extends DataSupport implements Serializable{
     private String yunshushijian;	//运输时间
     private String caozuoyuan;	//操作员
     private String caozuoriqi;	//操作日期
+
+    public String getAnquankapath() {
+        return anquankapath;
+    }
+
+    public void setAnquankapath(String anquankapath) {
+        this.anquankapath = anquankapath;
+    }
+
     private String yundanzhuangtai;	//运单状态
     private String beizhu;	//备注
+    private String anquankapath;
 
 }

@@ -40,6 +40,7 @@ public class TStartActivity extends AppCompatActivity {
     TextView price;
     TextView contacts_phone;
     TextView baochouleixing;
+    TextView safeCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +67,7 @@ public class TStartActivity extends AppCompatActivity {
             transportTime=(TextView)findViewById(R.id.transportTime2);
             tonnage=(TextView)findViewById(R.id.tonnage2);
             cargoName=(TextView)findViewById(R.id.cargoName2);
+            safeCard = (TextView)findViewById(R.id.safeCard);
             price=(TextView)findViewById(R.id.price2);
             baochouleixing=(TextView)findViewById(R.id.baochouleixing2);
 
@@ -84,8 +86,19 @@ public class TStartActivity extends AppCompatActivity {
             transportTime.setText(wayBill2.getYunshushijian());
             tonnage.setText(String.valueOf(wayBill2.getYujidunwei()));
             cargoName.setText(wayBill2.getHuowumingcheng());
+            safeCard.setText(wayBill2.getAnquanka());
             baochouleixing.setText(wayBill2.getBaochouleixing());
             price.setText(String.valueOf(wayBill2.getBaochoujine()));
+
+
+            safeCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent wordIntent = new Intent(TStartActivity.this,WordActivity.class);
+                    wordIntent.putExtra("path",wayBill2.getAnquankapath());
+                    startActivity(wordIntent);
+                }
+            });
 
 
             tstart.setOnClickListener(new View.OnClickListener() {

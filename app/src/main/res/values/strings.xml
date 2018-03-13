@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">交运危货管理</string>
+    <string name="app_name">交运业务管理</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">手机号码</string>
@@ -54,6 +54,7 @@
     <string name="startTime">运输时间</string>
     <string name="weight">预发吨位</string>
     <string name="cargo_name">货物名称</string>
+    <string name="safe_card">安全卡</string>
     <string name="price">单价</string>
 
     <string name="receipt_null">空空的，您还没有运单</string>
