@@ -79,7 +79,11 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="600dp"
+=======
+                android:layout_height="550dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                 android:layout_marginBottom="15dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -97,6 +101,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
@@ -106,10 +111,23 @@
                         <TextView
                             android:layout_width="60dp"
                             android:layout_height="match_parent"
+=======
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="18dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/receipt_id"
                             android:textSize="18sp"
                             android:gravity="center"/>
 
+<<<<<<< HEAD
+=======
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/receipt"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                         <TextView
                             android:id="@+id/wayBillId3"
@@ -135,6 +153,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="20dp"
                             android:layout_height="match_parent"
@@ -149,6 +168,15 @@
                             android:textSize="18sp" />
 
 
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/vehicle_id"
+                            android:textSize="18sp" />
+
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:id="@+id/vehiclePlate3"
                             android:layout_width="match_parent"
@@ -170,6 +198,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
+<<<<<<< HEAD
                         android:layout_height="60dp"
                         android:layout_marginTop="10dp">
 
@@ -183,6 +212,15 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="7dp"
+=======
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/client_name"
                             android:textSize="18sp" />
 
@@ -193,7 +231,11 @@
                             android:layout_marginRight="20dp"
                             android:gravity="right"
                             android:text="盐场"
+<<<<<<< HEAD
                             android:textSize="15sp"
+=======
+                            android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -209,6 +251,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
+<<<<<<< HEAD
                         android:layout_height="100dp"
                         android:layout_marginTop="10dp">
 
@@ -223,6 +266,15 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
+=======
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/address"
                             android:textSize="18sp" />
 
@@ -230,10 +282,17 @@
                             android:id="@+id/address3"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+<<<<<<< HEAD
                             android:layout_marginRight="15dp"
                             android:gravity="right"
                             android:text="上海市徐汇区宜山路100号"
                             android:textSize="15sp"
+=======
+                            android:layout_marginRight="20dp"
+                            android:gravity="right"
+                            android:text="上海市徐汇区宜山路100号"
+                            android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -250,6 +309,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
@@ -260,6 +320,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="8dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/contact"
                             android:textSize="18sp" />
 
@@ -287,6 +353,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="22dp"
                             android:layout_height="22dp"
@@ -297,6 +364,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="8dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/contacts_phone"
                             android:textSize="18sp" />
 
@@ -324,6 +397,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
@@ -334,6 +408,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/startTime"
                             android:textSize="18sp" />
 
@@ -344,7 +424,11 @@
                             android:layout_marginRight="20dp"
                             android:gravity="right"
                             android:text="2017年2月6号"
+<<<<<<< HEAD
                             android:textSize="15sp"
+=======
+                            android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -361,6 +445,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="23dp"
                             android:layout_height="23dp"
@@ -371,6 +456,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="7dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/weight"
                             android:textSize="18sp" />
 
@@ -398,6 +489,7 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="23dp"
                             android:layout_height="23dp"
@@ -409,6 +501,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="7dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/cargo_name"
                             android:textSize="18sp" />
 
@@ -436,17 +534,24 @@
                         android:layout_height="30dp"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="26dp"
                             android:layout_height="26dp"
                             android:layout_marginLeft="6dp"
                             android:src="@drawable/danjia"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:id="@+id/jijiafangshi"
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
+<<<<<<< HEAD
                             android:layout_marginLeft="10dp"
+=======
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/price"
                             android:textSize="18sp" />
 

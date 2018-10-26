@@ -16,6 +16,10 @@
         android:layout_weight="1">
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
     </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView

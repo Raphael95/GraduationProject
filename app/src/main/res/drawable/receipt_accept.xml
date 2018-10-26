@@ -3,7 +3,11 @@
     android:shape="rectangle" >
 
     <!-- 填充的颜色 -->
+<<<<<<< HEAD
     <solid android:color="#397dec" />
+=======
+    <solid android:color="#2844c7" />
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
 
     <!-- padding：Button里面的文字与Button边界的间隔 -->

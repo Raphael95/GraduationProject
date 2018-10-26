@@ -8,7 +8,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+<<<<<<< HEAD
     android:background="#f1eeee"
+=======
+    android:background="#FFFFFF"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
     tools:context="com.example.rapha.transpotsystem.LoginActivity">
 
     <!-- Login progress -->
@@ -43,6 +47,7 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="match_parent"
                 android:layout_marginTop="40dp">
 
@@ -73,6 +78,19 @@
                 </LinearLayout>
 
 
+=======
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_email"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
             </android.support.design.widget.TextInputLayout>
 

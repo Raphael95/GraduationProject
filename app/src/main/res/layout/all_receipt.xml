@@ -29,14 +29,25 @@
 
 
                 <ImageView
+<<<<<<< HEAD
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/gongsi"
+=======
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/finish"
+                    android:gravity="left"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:layout_marginLeft="25dp"/>
 
                 <TextView
                     android:id="@+id/receipt_clientName"
+<<<<<<< HEAD
                     android:layout_width="match_parent"
+=======
+                    android:layout_width="200dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:layout_height="match_parent"
                     android:layout_gravity="left"
                     android:layout_marginLeft="10sp"
@@ -63,7 +74,12 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
+<<<<<<< HEAD
                     android:src="@drawable/tram" />
+=======
+                    android:src="@drawable/tram"
+                    android:layout_marginLeft="20dp"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -77,12 +93,15 @@
                         android:orientation="horizontal"
                         android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             android:layout_marginLeft="5dp"
                             android:src="@drawable/yundan"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:layout_width="50dp"
                             android:layout_height="20dp"
@@ -103,6 +122,7 @@
                         android:layout_height="30dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="18dp"
                             android:layout_height="18dp"
@@ -114,6 +134,11 @@
                             android:layout_width="50dp"
                             android:layout_height="20dp"
                             android:layout_marginLeft="3dp"
+=======
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/cargo_name"/>
 
                         <TextView
@@ -123,7 +148,11 @@
                             android:layout_marginLeft="10dp"
                             android:text="废盐"
                             android:textColor="@color/colorPrimaryDark"
+<<<<<<< HEAD
                             android:textSize="15sp"
+=======
+                            android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textStyle="bold" />
 
                         <ImageView
@@ -141,25 +170,38 @@
                         android:layout_height="30dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
                             android:layout_marginLeft="7dp"
                             android:src="@drawable/finish"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:id="@+id/receipt_start"
                             android:layout_width="50dp"
                             android:layout_height="20dp"
+<<<<<<< HEAD
                             android:layout_marginLeft="3dp"
                             android:text="成都"
+=======
+                            android:text="淮安"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textColor="@color/colorPrimary"
                             android:textStyle="bold" />
 
                         <TextView
+<<<<<<< HEAD
                             android:layout_width="60dp"
                             android:layout_height="match_parent"
                             android:text="—————"/>
+=======
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:text="————————"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                         <TextView
                             android:id="@+id/receipt_end"

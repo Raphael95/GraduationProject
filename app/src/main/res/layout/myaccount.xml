@@ -29,7 +29,11 @@
                         android:background="?attr/colorPrimary"
                         android:minHeight="?attr/actionBarSize"
                         android:theme="?attr/actionBarTheme"
+<<<<<<< HEAD
                         app:title="@string/app_name" />
+=======
+                        app:title="@string/app_name"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                     <android.support.v7.widget.Toolbar
                         android:id="@+id/toolbar5"
@@ -69,6 +73,7 @@
                         android:layout_marginTop="30dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
@@ -79,6 +84,12 @@
                             android:layout_width="100dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
+=======
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:text="@string/user_name"
                             android:textSize="16sp" />
 
@@ -108,17 +119,24 @@
                         android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
                             android:layout_marginLeft="15dp"
                             android:src="@drawable/dianhua"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="match_parent"
                             android:text="@string/phone"
+<<<<<<< HEAD
                             android:layout_marginLeft="10dp"
+=======
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textSize="16sp" />
 
                         <TextView
@@ -145,17 +163,24 @@
                         android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
                             android:layout_marginLeft="15dp"
                             android:src="@drawable/mima"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="match_parent"
                             android:text="@string/password"
+<<<<<<< HEAD
                             android:layout_marginLeft="10dp"
+=======
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textSize="16sp" />
 
                         <TextView
@@ -184,17 +209,24 @@
                         android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
                         <ImageView
                             android:layout_width="21dp"
                             android:layout_height="21dp"
                             android:layout_marginLeft="15dp"
                             android:src="@drawable/yundan1"/>
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="match_parent"
                             android:text="全部运单"
+<<<<<<< HEAD
                             android:layout_marginLeft="10dp"
+=======
+                            android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:textSize="16sp" />
 
                         <TextView
@@ -209,6 +241,7 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
+<<<<<<< HEAD
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -237,6 +270,8 @@
                             android:layout_weight="1"/>
 
                     </LinearLayout>
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                 </LinearLayout>
 

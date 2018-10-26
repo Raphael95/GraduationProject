@@ -29,7 +29,10 @@ public class WordActivity extends AppCompatActivity {
         showWord.getSettings().setJavaScriptEnabled(true);
         showWord.getSettings().setSupportZoom(true);
         showWord.getSettings().setBuiltInZoomControls(true);
+<<<<<<< HEAD
         showWord.getSettings().setDisplayZoomControls(false);
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
         showWord.getSettings().setUseWideViewPort(true);
         showWord.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
         showWord.getSettings().setLoadWithOverviewMode(true);

@@ -3,16 +3,24 @@ package com.example.rapha.transpotsystem;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+<<<<<<< HEAD
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+=======
+import android.app.ProgressDialog;
+import android.content.ContentValues;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
+<<<<<<< HEAD
 import android.graphics.drawable.ColorDrawable;
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -31,14 +39,20 @@ import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
+<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+=======
+import android.view.View;
+import android.view.View.OnClickListener;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+<<<<<<< HEAD
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.widget.CheckBox;
@@ -56,12 +70,20 @@ import org.litepal.crud.DataSupport;
 
 import adapter.AccountAdapter.OnItemClickListener;
 import adapter.AccountAdapter.OnDelBtnClickListener;
+=======
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 import adapter.AccountAdapter;
 import domain.JiaShiYuan;
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import helper.DatabaseHelper;
 import httpResolve.ResolveGson;
 import httpReuest.RequestOkHttp;
@@ -71,7 +93,11 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
+<<<<<<< HEAD
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor>, OnItemClickListener, OnDelBtnClickListener, OnDismissListener {
+=======
+public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -97,21 +123,30 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mLoginFormView;
     private CheckBox rememberPass;
     private TextView forgetPass;
+<<<<<<< HEAD
     private ImageButton arrow;
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     private SharedPreferences pref;
     private SharedPreferences.Editor editor;
 
     private RequestOkHttp okHttp;
+<<<<<<< HEAD
     private LayoutInflater mInflater;
     private PopupWindow mSelectWindow;
     private LinearLayout mInputLayout;
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
     //private ResolveGson resolveGson=new ResolveGson();
 
     private static final String TAG="LoginActivity";
 
+<<<<<<< HEAD
     private ArrayList<String> accounts;
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     @Override
     protected void onPause() {
@@ -139,10 +174,17 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         rememberPass=(CheckBox)findViewById(R.id.remember_pass);
         mPasswordView = (EditText) findViewById(R.id.password);
         boolean isRemember=pref.getBoolean("remember_password",false);
+<<<<<<< HEAD
         String account=pref.getString("account","");
         mEmailView.setText(account);
         if(isRemember){
             String password=pref.getString("password","");
+=======
+        if(isRemember){
+            String account=pref.getString("account","");
+            String password=pref.getString("password","");
+            mEmailView.setText(account);
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
             mPasswordView.setText(password);
             rememberPass.setChecked(true);
         }
@@ -184,6 +226,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
+<<<<<<< HEAD
         mInputLayout = (LinearLayout) findViewById(R.id.account_form);
         arrow = (ImageButton)findViewById(R.id.arrow);
         initData();
@@ -282,6 +325,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         for(JiaShiYuan account: jiashiyuans){
             accounts.add(account.getDianhua());
         }
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     }
 
@@ -315,7 +360,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         return false;
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -539,8 +587,13 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if(okHttp.login(mAccount,mPassword)){
                 editor=pref.edit();
+<<<<<<< HEAD
                 editor.putString("account",mAccount);
                 if(mIsChecked){
+=======
+                if(mIsChecked){
+                    editor.putString("account",mAccount);
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     editor.putString("password",mPassword);
                     editor.putBoolean("remember_password",true);
                     Log.e("LoginActivity","复选框选中");

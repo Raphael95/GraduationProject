@@ -5,7 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+<<<<<<< HEAD
     tools:context="com.example.rapha.transpotsystem.ReceiptActivity">
+=======
+    tools:context="com.example.rapha.transpotsystem.ReceiptActivity"
+    >
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     <ScrollView
         android:layout_width="368dp"
@@ -24,15 +29,27 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="match_parent"
+<<<<<<< HEAD
                     android:layout_marginLeft="15dp"
                     android:src="@drawable/yundan" />
+=======
+                    android:layout_marginLeft="18dp"
+                    android:src="@drawable/receipt"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                 <TextView
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
+<<<<<<< HEAD
                     android:gravity="center"
                     android:text="@string/receipt_id"
                     android:textSize="18sp" />
+=======
+                    android:text="@string/receipt_id"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
 
                 <TextView
@@ -59,6 +76,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -69,6 +87,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/vehicle_id"
                     android:textSize="18sp" />
 
@@ -93,6 +117,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp">
 
@@ -106,6 +131,15 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/client_name"
                     android:textSize="18sp" />
 
@@ -116,7 +150,11 @@
                     android:layout_marginRight="20dp"
                     android:gravity="right"
                     android:text="盐场"
+<<<<<<< HEAD
                     android:textSize="15sp"
+=======
+                    android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -144,8 +182,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginRight="20dp"
+<<<<<<< HEAD
                     android:gravity="right"
                     android:text="@string/place_end"
+=======
+                    android:text="@string/place_end"
+                    android:gravity="right"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -174,7 +217,11 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="match_parent"
+<<<<<<< HEAD
                     android:src="@drawable/transport" />
+=======
+                    android:src="@drawable/transport"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                 <TextView
                     android:layout_width="60dp"
@@ -204,6 +251,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="100dp"
                 android:layout_marginTop="10dp">
 
@@ -217,6 +265,15 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/address"
                     android:textSize="18sp" />
 
@@ -227,7 +284,11 @@
                     android:layout_marginRight="20dp"
                     android:gravity="right"
                     android:text="上海市徐汇区宜山路100号"
+<<<<<<< HEAD
                     android:textSize="15sp"
+=======
+                    android:textSize="18sp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -244,6 +305,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -254,6 +316,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/contact"
                     android:textSize="18sp" />
 
@@ -281,6 +349,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -291,6 +360,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/contacts_phone"
                     android:textSize="18sp" />
 
@@ -318,6 +393,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -328,6 +404,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/startTime"
                     android:textSize="18sp" />
 
@@ -355,6 +437,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -365,6 +448,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/weight"
                     android:textSize="18sp" />
 
@@ -392,6 +481,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -402,6 +492,12 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/cargo_name"
                     android:textSize="18sp" />
 
@@ -429,6 +525,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="match_parent"
@@ -439,11 +536,18 @@
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
+=======
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="18dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/safe_card"
                     android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/safeCard"
+<<<<<<< HEAD
                     android:layout_width="220dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="6dp"
@@ -459,6 +563,23 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="20dp"
                     android:src="@drawable/word" />
+=======
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="文件.docx"
+                    android:layout_marginRight="6dp"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+
+                <ImageView
+                    android:id="@+id/safeCardImage"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/word"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
             </LinearLayout>
 
@@ -475,17 +596,24 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp">
 
+<<<<<<< HEAD
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
                     android:src="@drawable/danjia" />
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                 <TextView
                     android:id="@+id/baochouleixing"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
+<<<<<<< HEAD
                     android:layout_marginLeft="10dp"
+=======
+                    android:layout_marginLeft="20dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:text="@string/price"
                     android:textSize="18sp" />
 
@@ -532,6 +660,7 @@
                     android:text="拒绝"
                     android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
+<<<<<<< HEAD
 
             </LinearLayout>
 
@@ -539,6 +668,11 @@
 
 
 
+=======
+            </LinearLayout>
+
+
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
         </LinearLayout>
     </ScrollView>
 

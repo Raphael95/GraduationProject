@@ -5,16 +5,23 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+<<<<<<< HEAD
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.internal.BottomNavigationMenuView;
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+=======
+import android.view.MenuItem;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
 import fragmnt.AccountFragment;
 import fragmnt.EndTransportFragment;
@@ -89,6 +96,7 @@ public class MainActivity2 extends FragmentActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
+<<<<<<< HEAD
         BottomNavigationMenuView menuView= (BottomNavigationMenuView)navigation.getChildAt(0);
         View tab = menuView.getChildAt(0);
         BottomNavigationItemView itemView = (BottomNavigationItemView) tab;
@@ -99,6 +107,8 @@ public class MainActivity2 extends FragmentActivity {
 //        TextView text_message = (TextView) message.findViewById(R.id.text_message);
 //        text_message.setText(String.valueOf(5));
 
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
     }
 

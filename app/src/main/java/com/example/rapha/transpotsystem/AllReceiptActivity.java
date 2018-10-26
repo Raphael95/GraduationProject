@@ -124,6 +124,10 @@ public class AllReceiptActivity extends AppCompatActivity {
                 RecyclerView recyclerView=(RecyclerView)findViewById(R.id.allReceipt_listView);
                 recyclerView.setLayoutManager(new LinearLayoutManager(AllReceiptActivity.this));
                 AllReceiptRecyclerAdapter adapter=new AllReceiptRecyclerAdapter(wayBillList,AllReceiptActivity.this);
+<<<<<<< HEAD
+=======
+                //recyclerView.setAdapter(adapter);
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                 recyclerView.setAdapter(adapter);
                 swipeRefresh.setRefreshing(false);
                 Toast.makeText(AllReceiptActivity.this,"刷新成功！",Toast.LENGTH_SHORT).show();

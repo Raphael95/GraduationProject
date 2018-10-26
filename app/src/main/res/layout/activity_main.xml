@@ -59,7 +59,11 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
+<<<<<<< HEAD
                     android:layout_height="130dp"
+=======
+                    android:layout_height="100dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                     android:orientation="horizontal">
 
 
@@ -70,11 +74,16 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
+<<<<<<< HEAD
                             android:layout_height="35dp"
+=======
+                            android:layout_height="25dp"
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
                             android:orientation="horizontal"
                             android:layout_marginTop="20dp"
                             android:layout_gravity="center">
 
+<<<<<<< HEAD
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
@@ -87,6 +96,14 @@
                                 android:text="@string/ip_address"
                                 android:textSize="18sp"
                                 android:layout_marginLeft="20dp"/>
+=======
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:text="@string/ip_address"
+                                android:textSize="18sp"
+                                android:layout_marginLeft="10dp"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                             <TextView
                                 android:id="@+id/ip_address"
@@ -111,6 +128,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
+<<<<<<< HEAD
                             android:layout_height="35dp"
                             android:orientation="horizontal"
                             android:layout_marginTop="19dp">
@@ -127,6 +145,18 @@
                                 android:text="@string/ip_port"
                                 android:textSize="18sp"
                                 android:layout_marginLeft="20dp"/>
+=======
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="20dp"
+                                android:text="@string/ip_port"
+                                android:textSize="18sp"
+                                android:layout_marginLeft="10dp"/>
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
                             <TextView
                                 android:id="@+id/ip_port"

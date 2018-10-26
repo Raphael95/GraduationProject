@@ -77,5 +77,8 @@
 
     <string name="ip_address">IP地址</string>
     <string name="ip_port">端口</string>
+<<<<<<< HEAD
     <string name="quit">退  出</string>
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 </resources>

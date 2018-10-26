@@ -1,13 +1,19 @@
 package fragmnt;
 
+<<<<<<< HEAD
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+=======
+import android.content.Intent;
+import android.os.AsyncTask;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,12 +22,27 @@ import android.widget.TextView;
 
 import com.example.rapha.transpotsystem.AllReceiptActivity;
 import com.example.rapha.transpotsystem.LoginActivity;
+=======
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.example.rapha.transpotsystem.AllReceiptActivity;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import com.example.rapha.transpotsystem.R;
 
 import org.litepal.crud.DataSupport;
 
 import java.util.List;
 
+<<<<<<< HEAD
+=======
+import dao.User;
+import dao.WayBill;
+import dao.WayBill2;
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 import domain.JiaShiYuan;
 import httpResolve.ResolveGson;
 import httpReuest.RequestOkHttp;
@@ -49,7 +70,10 @@ public class AccountFragment extends Fragment{
         TextView phone=(TextView)v.findViewById(R.id.user_phone);
         TextView password=(TextView)v.findViewById(R.id.user_password);
         TextView check_allReceipt=(TextView)v.findViewById(R.id.check_allReceipt);
+<<<<<<< HEAD
         Button quit = (Button)v.findViewById(R.id.quit);
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
         List<JiaShiYuan> user= DataSupport.where("dianhua= ? ",ResolveGson.jiashiyuan.getDianhua()).find(JiaShiYuan.class);
 
@@ -75,6 +99,7 @@ public class AccountFragment extends Fragment{
             }
         });
 
+<<<<<<< HEAD
         quit.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -95,6 +120,8 @@ public class AccountFragment extends Fragment{
                 builder.create().show();
             }
         });
+=======
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
 
         return v;
     }

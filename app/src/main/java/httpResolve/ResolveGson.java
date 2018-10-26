@@ -66,6 +66,10 @@ public class ResolveGson {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9189f46ed660dffc72b2745f5e29f4409ca22d9f
         if(flag.equals("登录成功")){
                                                    //验证成功，创建用户数据库，并将用户信息保存下来
 
