@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="TransportSystem"></dbname>
+
+    <version value="14"></version>
+
+    <list>
+        <mapping class="dao.User"></mapping>
+        <mapping class="dao.Driver"></mapping>
+        <mapping class="dao.Location"></mapping>
+        <mapping class="dao.WayBill"></mapping>
+        <mapping class="dao.Client"></mapping>
+        <mapping class="dao.DangerousCargo"></mapping>
+        <mapping class="dao.Vehicle"></mapping>
+        <mapping class="domain.JiaShiYuan"></mapping>
+        <mapping class="domain.YunDan"></mapping>
+        <mapping class="domain.IpAddress"></mapping>
+    </list>
+</litepal>

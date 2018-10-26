@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_orderTaking"
+        android:icon="@drawable/ic_starttransport"
+        android:title="@string/title_orderTaking" />
+
+
+    <item
+        android:id="@+id/navigation_endTransport"
+        android:icon="@drawable/ic_huizhi"
+        android:title="@string/title_huizhi" />
+
+    <item
+        android:id="@+id/navigation_receipt"
+        android:icon="@drawable/ic_userinfo"
+        android:title="@string/title_myAccount"/>
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="运单详情"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </android.support.v7.widget.Toolbar>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:gravity="center"
+           android:layout_marginTop="120dp">
+
+           <ImageView
+               android:layout_width="90dp"
+               android:layout_height="90dp"
+               android:src="@drawable/box"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center"
+               android:text="@string/receipt_null"
+               android:textSize="18sp" />
+       </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

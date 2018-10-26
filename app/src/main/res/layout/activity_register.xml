@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rapha.transpotsystem.RegisterActivity">
+
+    <TextView
+        android:text="@string/join_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="姓名"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <EditText
+                    android:id="@+id/name"
+                    android:hint="请填写"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/editsharp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="电话"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/editsharp"
+                    android:hint="请填写"
+                    android:inputType="phone"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="籍贯"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/place"
+                    android:hint="请填写"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/editsharp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="地址"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <EditText
+                    android:id="@+id/address"
+                    android:hint="请填写"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/editsharp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="身份证"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <EditText
+                    android:id="@+id/identification"
+                    android:hint="请填写"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:inputType="number"
+                    android:background="@drawable/editsharp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="准驾车型"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <Spinner
+                    android:id="@+id/vehicle"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:entries="@array/vehicle"
+                    android:layout_marginLeft="90dp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/editsharp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="出生日期"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <TextView
+                    android:id="@+id/dateBorn"
+                    android:hint="点击选择"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:background="@drawable/editsharp"
+                    android:layout_marginLeft="90dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="初次领证日期"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <TextView
+                    android:id="@+id/certificateStart"
+                    android:hint="点击选择"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:background="@drawable/editsharp"
+                    android:layout_marginLeft="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="驾驶证年审日期"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <TextView
+                    android:id="@+id/certificateEnd"
+                    android:hint="点击选择"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:background="@drawable/editsharp"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#f76c6c"
+                android:layout_marginTop="20dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="上传照片"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <ImageButton
+                    android:id="@+id/choose_photo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/add_img"/>
+
+                <ImageButton
+                    android:id="@+id/choose_license"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@mipmap/add_license"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <ImageButton
+                    android:id="@+id/choose_qualification"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/add_qualification"/>
+
+                <ImageButton
+                    android:id="@+id/choose_identification"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@mipmap/add_identification"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/VerifySubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sign_up"
+                    android:fontFamily="sans-serif"
+                    android:text="提交审核"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        
+
+        
+        
+    </ScrollView>
+</LinearLayout>
